@@ -1,4 +1,4 @@
-**Students Performance EDA**
+**STUDENTS PERFORMANCE EDA**
 
 This repository contains an **Exploratory Data Analysis (EDA)** project on the **Students Performance Dataset**.
 The goal is to analyze factors that influence students' academic performance across subjects like **Math, Reading, and Writing**, along with demographic and socio-economic factors.
@@ -35,18 +35,18 @@ and additional attributes such as:
 
 1. Clone the Repository
    
-  git clone https://github.com/Divyaa2601/MACHINE-LEARNING-PROJECTS/blob/main/PROJECT-1/Students_Performance_EDA.ipynb.git
-  
-  cd students-performance-eda
+      git clone https://github.com/Divyaa2601/MACHINE-LEARNING-PROJECTS/blob/main/PROJECT-1/Students_Performance_EDA.ipynb.git
+      
+      cd students-performance-eda
 
 2. Install Dependencies
 
-  Ensure you have Python (>=3.7) installed. Then install the required libraries:
-  
-  pip install pandas numpy matplotlib seaborn jupyter
+    Ensure you have Python (>=3.7) installed. Then install the required libraries:
+    
+    pip install pandas numpy matplotlib seaborn jupyter
 
 3. Run the Notebook
-jupyter notebook Students_Performance_EDA.ipynb
+     jupyter notebook Students_Performance_EDA.ipynb
 
 **📈 Analysis Overview**
 
@@ -95,4 +95,5 @@ This project is licensed under the MIT License – you are free to use, modify, 
 **✨ Author**
 
 DIVYA A
+
 https://github.com/Divyaa2601
