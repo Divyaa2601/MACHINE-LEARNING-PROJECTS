@@ -1,4 +1,4 @@
-**Used Car Price Prediction**
+**USED CAR PRICE PREDICTION**
 
 This repository contains a Machine Learning project that predicts the prices of used cars based on various features such as car brand, year, mileage, fuel type, transmission, and more.
 The notebook walks through data preprocessing, exploratory data analysis (EDA), feature engineering, model training, and evaluation.
