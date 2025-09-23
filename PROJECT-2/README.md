@@ -7,7 +7,7 @@ The notebook walks through data preprocessing, exploratory data analysis (EDA), 
 
 **Used_Car_Price_Prediction.ipynb** → Main Jupyter Notebook with the complete analysis and model.
 
-**README.md **→ Documentation for the project.
+**README.md**→ Documentation for the project.
 
 **data/** → Folder containing dataset.
 
@@ -32,7 +32,9 @@ The dataset contains the following information about used cars:
 **🚀 Getting Started**
 
 1. Clone the Repository
+   
       git clone https://github.com/Divyaa2601/MACHINE-LEARNING-PROJECTS.git
+   
       cd MACHINE-LEARNING-PROJECTS/PROJECT-2
    
 2. Install Dependencies
@@ -92,4 +94,5 @@ This project is licensed under the MIT License – feel free to use and modify.
 **✨ Author**
 
 DIVYA A
+
 https://github.com/Divyaa2601
