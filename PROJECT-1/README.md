@@ -46,6 +46,7 @@ and additional attributes such as:
     pip install pandas numpy matplotlib seaborn jupyter
 
 3. Run the Notebook
+   
      jupyter notebook Students_Performance_EDA.ipynb
 
 **📈 Analysis Overview**
