@@ -1,10 +1,9 @@
-**Students Performance EDA
-**
+**Students Performance EDA**
+
 This repository contains an **Exploratory Data Analysis (EDA)** project on the **Students Performance Dataset**.
 The goal is to analyze factors that influence students' academic performance across subjects like **Math, Reading, and Writing**, along with demographic and socio-economic factors.
 
-**📂 Project Structure
-**
+**📂 Project Structure**
 **Students_Performance_EDA.ipynb** → Main Jupyter Notebook with the analysis and visualizations.
 
 **README.md** → Documentation for the project.
@@ -46,8 +45,7 @@ pip install pandas numpy matplotlib seaborn jupyter
 3. Run the Notebook
 jupyter notebook Students_Performance_EDA.ipynb
 
-**📈 Analysis Overview
-**
+**📈 Analysis Overview**
 The notebook covers:
 
 ✅ Data Cleaning & Preprocessing
@@ -74,8 +72,7 @@ The notebook covers:
   
   -Jupyter Notebook
 
-**📌 Key Insights
-**
+**📌 Key Insights**
   -Gender differences observed in subject performance.
   
   -Parental education level strongly influences student scores.
@@ -86,11 +83,9 @@ The notebook covers:
   
   -Strong correlations exist among Math, Reading, and Writing scores.
 
-📜 License
-
+**📜 License**
 This project is licensed under the MIT License – you are free to use, modify, and share.
 
-✨ Author
-
+**✨ Author**
 DIVYA A
 https://github.com/Divyaa2601
