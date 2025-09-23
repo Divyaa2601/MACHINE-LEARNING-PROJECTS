@@ -34,6 +34,7 @@ and additional attributes such as:
 **🚀 Getting Started**
 
 1. Clone the Repository
+   
   git clone https://github.com/Divyaa2601/MACHINE-LEARNING-PROJECTS/blob/main/PROJECT-1/Students_Performance_EDA.ipynb.git
   
   cd students-performance-eda
