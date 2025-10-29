@@ -1,78 +1,97 @@
 # 🌦️ Rain Prediction using Logistic Regression (WeatherAUS Dataset)
 
 ## 📘 Overview
-This project predicts whether it will rain **tomorrow** in various Australian locations using the **WeatherAUS dataset** from Kaggle.  
+
+This project predicts whether it will rain **tomorrow** in various Australian locations using the **WeatherAUS dataset** from Kaggle.
 It applies **Logistic Regression** to classify rainfall based on meteorological parameters such as temperature, humidity, pressure, wind speed, and more.
 
 ---
 
 ## 📊 Dataset
-**Dataset Name:** `weatherAUS.csv`  
-**Source:** Kaggle  
-**Shape:** 145,460 rows × 23 columns  
+
+**Dataset Name:** `weatherAUS.csv`
+**Source:** [Kaggle](https://www.kaggle.com/datasets/jsphyg/weather-dataset-rattle-package)
+**Shape:** 145,460 rows × 23 columns
 **Target Variable:** `RainTomorrow` (Yes / No)
 
 ### Key Features
-- **Temperature:** MinTemp, MaxTemp, Temp3pm, Temp9am  
-- **Humidity:** Humidity3pm, Humidity9am  
-- **Pressure:** Pressure3pm, Pressure9am  
-- **Wind:** WindGustSpeed, WindSpeed3pm, WindDir  
-- **Others:** Cloud3pm, Sunshine, Rainfall  
+
+* **Temperature:** MinTemp, MaxTemp, Temp3pm, Temp9am
+* **Humidity:** Humidity3pm, Humidity9am
+* **Pressure:** Pressure3pm, Pressure9am
+* **Wind:** WindGustSpeed, WindSpeed3pm, WindDir
+* **Others:** Cloud3pm, Sunshine, Rainfall
 
 ---
 
 ## ⚙️ Steps Performed
-1. **Data Loading** – Imported the dataset into the notebook.  
-2. **Data Cleaning** – Handled missing values and removed nulls in the target column.  
-3. **Encoding** – Converted categorical data using Label Encoding.  
-4. **Feature Scaling** – Standardized numeric columns with `StandardScaler`.  
-5. **Model Training** – Trained the Logistic Regression model.  
-6. **Evaluation** – Used Accuracy, Confusion Matrix, ROC Curve, and Classification Report.  
-7. **Feature Selection** – Used RFE (Recursive Feature Elimination) to identify top features.  
-8. **Hyperparameter Tuning** – Applied GridSearchCV for model optimization.  
+
+1. **Data Loading** – Imported the dataset into the notebook.
+2. **Data Cleaning** – Handled missing values and removed nulls in the target column.
+3. **Encoding** – Converted categorical data using Label Encoding.
+4. **Feature Scaling** – Standardized numeric columns with `StandardScaler`.
+5. **Model Training** – Trained the Logistic Regression model.
+6. **Evaluation** – Used Accuracy, Confusion Matrix, ROC Curve, and Classification Report.
+7. **Feature Selection** – Used RFE (Recursive Feature Elimination) to identify top features.
+8. **Hyperparameter Tuning** – Applied GridSearchCV for model optimization.
 
 ---
 
 ## 🧠 Model Performance
-| Metric | Score |
-|:-------|:------|
-| **Accuracy** | 84.47% |
-| **Mean CV Accuracy** | 84.14% |
-| **ROC AUC** | ~0.84 |
 
-### 🔝 Top 10 Features Selected by RFE
-- MaxTemp  
-- Sunshine  
-- WindGustSpeed  
-- WindSpeed3pm  
-- Humidity3pm  
-- Pressure9am  
-- Pressure3pm  
-- Cloud3pm  
-- Temp3pm  
-- RainToday  
+| Metric               |  Score |
+| :------------------- | :----: |
+| **Accuracy**         | 84.47% |
+| **Mean CV Accuracy** | 84.14% |
+| **ROC AUC**          |  ~0.84 |
+
+### 🔝 Top 10 Features (Selected by RFE)
+
+* MaxTemp
+* Sunshine
+* WindGustSpeed
+* WindSpeed3pm
+* Humidity3pm
+* Pressure9am
+* Pressure3pm
+* Cloud3pm
+* Temp3pm
+* RainToday
 
 ---
 
 ## 📈 Visualizations
-- Target Variable Distribution  
-- Confusion Matrix Heatmap  
-- ROC Curve  
+
+* Target variable distribution
+* Confusion matrix heatmap
+* ROC curve
 
 ---
 
 ## 🧩 Requirements
+
 Install dependencies using:
+
 ```bash
 pip install -r requirements.txt
-````
+```
+
+**requirements.txt**
+
+```
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+```
 
 ---
 
 ## 🚀 Conclusion
 
-The **Logistic Regression model** achieved an **accuracy of ~84%**, successfully predicting if it will rain tomorrow.
-This project highlights how simple machine learning models can be effectively applied in **weather forecasting**.
+The **Logistic Regression model** achieved an **accuracy of ~84%**, effectively predicting if it will rain tomorrow.
+This project demonstrates how fundamental ML techniques can be applied to real-world weather forecasting.
 
 ---
 
@@ -92,3 +111,4 @@ PROJECT-3/
 ## 👩‍💻 Author
 
 **Divya A**
+
