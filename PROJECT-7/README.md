@@ -105,6 +105,3 @@ KNN-and-NaiveBayes-BreastCancer-Classification/
 ## 👩‍💻 Author
 
 **Divya A**
-
-Would you like me to also generate a **short `requirements.txt`** file for you (listing only the needed libraries)?
-```
