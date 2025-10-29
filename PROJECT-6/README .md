@@ -55,9 +55,9 @@ Such segmentation helps businesses identify target customer groups for marketing
 ## 🚀 How to Run
 
 1. Clone this repository:
-   ```
+  ````
    git clone https://github.com/your-username/mall-customers-kmeans.git
-````
+ ````
 
 2. Navigate to the project folder:
 
@@ -81,9 +81,10 @@ Such segmentation helps businesses identify target customer groups for marketing
 
 ## 📈 Results
 
-* **Optimal Clusters (K):** 5
-* **Silhouette Score:** ~0.55
+* **Optimal Clusters (K):**  5
+* **Silhouette Score:**  ~0.55
 * **Observation:**
+  
 
   * Cluster 1: High income, high spenders
   * Cluster 2: High income, low spenders
@@ -96,4 +97,5 @@ Such segmentation helps businesses identify target customer groups for marketing
 ## 👩‍💻 Author
 
 **Divya A**
+
 B.Tech – Artificial Intelligence and Machine Learning
