@@ -1,20 +1,19 @@
-#  🌦️ Rain Prediction using Logistic Regression (WeatherAUS Dataset)
 
-##  📘 Overview
+# 🌦️ Rain Prediction using Logistic Regression (WeatherAUS Dataset)
+
+## 📘 Overview
 This project predicts whether it will rain **tomorrow** in various Australian locations using the **WeatherAUS dataset** from Kaggle.  
 It applies **Logistic Regression** to classify rainfall based on meteorological parameters such as temperature, humidity, pressure, wind speed, and more.
 
 ---
 
 ## 📊 Dataset
-
 **Dataset Name:** `weatherAUS.csv`  
 **Source:** Kaggle  
 **Shape:** 145,460 rows × 23 columns  
 **Target Variable:** `RainTomorrow` (Yes / No)
 
 ### Key Features
-
 - **Temperature:** MinTemp, MaxTemp, Temp3pm, Temp9am  
 - **Humidity:** Humidity3pm, Humidity9am  
 - **Pressure:** Pressure3pm, Pressure9am  
@@ -24,15 +23,14 @@ It applies **Logistic Regression** to classify rainfall based on meteorological 
 ---
 
 ## ⚙️ Steps Performed
-
-1. ** Data Loading ** – Imported the dataset into the notebook.  
-2. ** Data Cleaning ** – Handled missing values and removed nulls in the target column.  
-3. ** Encoding ** – Converted categorical data using Label Encoding.  
-4. ** Feature Scaling ** – Standardized numeric columns with `StandardScaler`.  
-5. ** Model Training ** – Trained the Logistic Regression model.  
-6. ** Evaluation ** – Used Accuracy, Confusion Matrix, ROC Curve, and Classification Report.  
-7. ** Feature Selection ** – Used RFE (Recursive Feature Elimination) to identify top features.  
-8. ** Hyperparameter Tuning ** – Applied GridSearchCV for model optimization.  
+1. **Data Loading** – Imported the dataset into the notebook.  
+2. **Data Cleaning** – Handled missing values and removed nulls in the target column.  
+3. **Encoding** – Converted categorical data using Label Encoding.  
+4. **Feature Scaling** – Standardized numeric columns with `StandardScaler`.  
+5. **Model Training** – Trained the Logistic Regression model.  
+6. **Evaluation** – Used Accuracy, Confusion Matrix, ROC Curve, and Classification Report.  
+7. **Feature Selection** – Used RFE (Recursive Feature Elimination) to identify top features.  
+8. **Hyperparameter Tuning** – Applied GridSearchCV for model optimization.  
 
 ---
 
@@ -69,3 +67,30 @@ Install all required dependencies using:
 
 ```bash
 pip install -r requirements.txt
+````
+
+---
+
+## 🚀 Conclusion
+
+The **Logistic Regression model** achieved an **accuracy of ~84%**, successfully predicting if it will rain tomorrow.
+This project highlights how simple machine learning models can be applied effectively in **weather forecasting and data-driven decision-making**.
+
+---
+
+## 🗂️ Project Structure
+
+```
+PROJECT-3/
+│
+├── weatherAUS.csv
+├── Logistic_Regression_on_Airbnb.ipynb
+├── requirements.txt
+└── README.md
+```
+
+---
+
+## 👩‍💻 Author
+
+**Divya A**
