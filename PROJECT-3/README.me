@@ -12,35 +12,35 @@ It applies **Logistic Regression** to classify rainfall based on meteorological 
 **Shape:** 145,460 rows × 23 columns  
 **Target Variable:** `RainTomorrow` (Yes / No)
 
-Key features include:
-- Temperature (MinTemp, MaxTemp, Temp3pm, Temp9am)  
-- Humidity (Humidity3pm, Humidity9am)  
-- Pressure (Pressure3pm, Pressure9am)  
-- Wind speed and direction  
-- Cloud cover, Sunshine, and Rainfall amount  
+### Key Features
+- **Temperature:** MinTemp, MaxTemp, Temp3pm, Temp9am  
+- **Humidity:** Humidity3pm, Humidity9am  
+- **Pressure:** Pressure3pm, Pressure9am  
+- **Wind:** WindGustSpeed, WindSpeed3pm, WindDir  
+- **Others:** Cloud3pm, Sunshine, Rainfall  
 
 ---
 
 ## ⚙️ Steps Performed
-1. **Data Loading** – Imported dataset from Google Drive.  
-2. **Data Cleaning** – Handled missing values, removed nulls in target column.  
-3. **Encoding** – Label encoded categorical variables.  
-4. **Feature Scaling** – Applied StandardScaler on numeric columns.  
-5. **Model Training** – Trained Logistic Regression model.  
+1. **Data Loading** – Imported the dataset into the notebook.  
+2. **Data Cleaning** – Handled missing values and removed nulls in the target column.  
+3. **Encoding** – Converted categorical data using Label Encoding.  
+4. **Feature Scaling** – Standardized numeric columns with `StandardScaler`.  
+5. **Model Training** – Trained the Logistic Regression model.  
 6. **Evaluation** – Used Accuracy, Confusion Matrix, ROC Curve, and Classification Report.  
-7. **Feature Selection** – Used RFE to find top 10 important features.  
-8. **Hyperparameter Tuning** – Performed GridSearchCV to optimize model parameters.  
+7. **Feature Selection** – Used RFE (Recursive Feature Elimination) to identify top features.  
+8. **Hyperparameter Tuning** – Applied GridSearchCV for model optimization.  
 
 ---
 
 ## 🧠 Model Performance
 | Metric | Score |
 |:-------|:------|
-| Accuracy | 84.47% |
-| Mean CV Accuracy | 84.14% |
-| ROC AUC | ~0.84 |
+| **Accuracy** | 84.47% |
+| **Mean CV Accuracy** | 84.14% |
+| **ROC AUC** | ~0.84 |
 
-**Top 10 Features Selected by RFE:**
+### 🔝 Top 10 Features Selected by RFE
 - MaxTemp  
 - Sunshine  
 - WindGustSpeed  
@@ -55,40 +55,14 @@ Key features include:
 ---
 
 ## 📈 Visualizations
-- Target variable distribution  
-- Confusion matrix heatmap  
-- ROC curve  
+- Target Variable Distribution  
+- Confusion Matrix Heatmap  
+- ROC Curve  
 
 ---
 
 ## 🧩 Requirements
-Install dependencies using:
+Install all required dependencies using:
+
 ```bash
 pip install -r requirements.txt
-````
-
----
-
-## 🚀 Conclusion
-
-The Logistic Regression model achieved an **accuracy of ~84%**, effectively predicting if it will rain tomorrow.
-The project demonstrates the power of basic machine learning techniques for meteorological data analysis.
-
----
-
-## 🗂️ Project Structure
-
-```
-PROJECT-3/
-│
-├── weatherAUS.csv
-├── Logistic_Regression_on_Airbnb.ipynb
-├── requirements.txt
-└── README.md
-```
-
----
-
-## 👩‍💻 Author
-
-**Divya A**
