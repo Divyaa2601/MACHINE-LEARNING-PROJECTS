@@ -55,31 +55,31 @@ This project aims to predict whether a person is diabetic or not based on health
 ## 🚀 How to Run
 
 1. Clone this repository:
-   ```bash
+  ````
    git clone https://github.com/your-username/diabetes-prediction-xgboost.git
 ````
 
 2. Navigate to the project folder:
 
-   ```bash
+   ```
    cd diabetes-prediction-xgboost
    ```
 
 3. Install dependencies:
 
-   ```bash
+   ```
    pip install pandas numpy matplotlib seaborn scikit-learn xgboost
    ```
 
 4. Run the notebook or Python script:
 
-   ```bash
+   ```
    jupyter notebook diabetes_xgboost.ipynb
    ```
 
    or
 
-   ```bash
+   ```
    python diabetes_xgboost.py
    ```
 
@@ -87,14 +87,12 @@ This project aims to predict whether a person is diabetic or not based on health
 
 ## 📈 Results
 
-* **Model Accuracy:** ~80%
-* **Key Predictors:** Glucose level and BMI
-* **Observation:** Individuals with higher glucose and BMI values are more prone to diabetes.
+*  **Model Accuracy:**  ~80%
+*  **Key Predictors:**  Glucose level and BMI
+*  **Observation:**  Individuals with higher glucose and BMI values are more prone to diabetes.
 
 ---
 
 ## 👩‍💻 Author
 
 **Divya A**
-Would you like me to include a **sample output section** (with confusion matrix or accuracy screenshot placeholder) for GitHub display?
-```
