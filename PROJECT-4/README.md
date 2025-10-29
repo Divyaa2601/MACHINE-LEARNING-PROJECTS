@@ -56,4 +56,4 @@ python heart_rf.ipynb
 
 ### 👩‍💻 Author
 
-**Divya A** – III Year AIML
+**Divya A** 
