@@ -70,7 +70,7 @@ KNN-and-NaiveBayes-BreastCancer-Classification/
 ├── README.md
 └── requirements.txt
 
-````
+```
 
 ---
 
@@ -79,7 +79,7 @@ KNN-and-NaiveBayes-BreastCancer-Classification/
    ```
    git clone https://github.com/yourusername/KNN-and-NaiveBayes-BreastCancer-Classification.git
    cd KNN-and-NaiveBayes-BreastCancer-Classification
-````
+   ```
 
 2. Install dependencies
 
