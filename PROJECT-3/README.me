@@ -1,1 +1,94 @@
+# 🌦️ Rain Prediction using Logistic Regression (WeatherAUS Dataset)
 
+## 📘 Overview
+This project predicts whether it will rain **tomorrow** in various Australian locations using the **WeatherAUS dataset** from Kaggle.  
+It applies **Logistic Regression** to classify rainfall based on meteorological parameters such as temperature, humidity, pressure, wind speed, and more.
+
+---
+
+## 📊 Dataset
+**Dataset Name:** `weatherAUS.csv`  
+**Source:** Kaggle  
+**Shape:** 145,460 rows × 23 columns  
+**Target Variable:** `RainTomorrow` (Yes / No)
+
+Key features include:
+- Temperature (MinTemp, MaxTemp, Temp3pm, Temp9am)  
+- Humidity (Humidity3pm, Humidity9am)  
+- Pressure (Pressure3pm, Pressure9am)  
+- Wind speed and direction  
+- Cloud cover, Sunshine, and Rainfall amount  
+
+---
+
+## ⚙️ Steps Performed
+1. **Data Loading** – Imported dataset from Google Drive.  
+2. **Data Cleaning** – Handled missing values, removed nulls in target column.  
+3. **Encoding** – Label encoded categorical variables.  
+4. **Feature Scaling** – Applied StandardScaler on numeric columns.  
+5. **Model Training** – Trained Logistic Regression model.  
+6. **Evaluation** – Used Accuracy, Confusion Matrix, ROC Curve, and Classification Report.  
+7. **Feature Selection** – Used RFE to find top 10 important features.  
+8. **Hyperparameter Tuning** – Performed GridSearchCV to optimize model parameters.  
+
+---
+
+## 🧠 Model Performance
+| Metric | Score |
+|:-------|:------|
+| Accuracy | 84.47% |
+| Mean CV Accuracy | 84.14% |
+| ROC AUC | ~0.84 |
+
+**Top 10 Features Selected by RFE:**
+- MaxTemp  
+- Sunshine  
+- WindGustSpeed  
+- WindSpeed3pm  
+- Humidity3pm  
+- Pressure9am  
+- Pressure3pm  
+- Cloud3pm  
+- Temp3pm  
+- RainToday  
+
+---
+
+## 📈 Visualizations
+- Target variable distribution  
+- Confusion matrix heatmap  
+- ROC curve  
+
+---
+
+## 🧩 Requirements
+Install dependencies using:
+```bash
+pip install -r requirements.txt
+````
+
+---
+
+## 🚀 Conclusion
+
+The Logistic Regression model achieved an **accuracy of ~84%**, effectively predicting if it will rain tomorrow.
+The project demonstrates the power of basic machine learning techniques for meteorological data analysis.
+
+---
+
+## 🗂️ Project Structure
+
+```
+PROJECT-3/
+│
+├── weatherAUS.csv
+├── Logistic_Regression_on_Airbnb.ipynb
+├── requirements.txt
+└── README.md
+```
+
+---
+
+## 👩‍💻 Author
+
+**Divya A**
